@@ -1,4 +1,4 @@
-# Binary Search Tree With Desired Pool
+# An Applicable Implementation of Data Structures With Pool Mechanism
 
 ## Description
 The main **IDEA** to start the current project is the fact that in real industrial cases, sequential data allocation is significantly inefficient, since it requires a system call. 
