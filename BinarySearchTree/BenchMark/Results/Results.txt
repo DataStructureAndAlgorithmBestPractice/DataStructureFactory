@@ -1,0 +1,33 @@
+Number Of Pool Data: 10
+Min Elapsed time in Sec: 0.00000000  AVE Elapsed time in Sec: 0.00000044  Max Elapsed time in Sec: 0.00000200
+Min Elapsed time in Sec: 0.00000000  AVE Elapsed time in Sec: 0.00000035  Max Elapsed time in Sec: 0.00000400
+No Pool to Pool Time Ratio: 1.25714286
+
+Number Of Pool Data: 100 // 1e2
+Min Elapsed time in Sec: 0.00000200  AVE Elapsed time in Sec: 0.00000361  Max Elapsed time in Sec: 0.00001500
+Min Elapsed time in Sec: 0.00000100  AVE Elapsed time in Sec: 0.00000137  Max Elapsed time in Sec: 0.00001300
+No Pool to Pool Time Ratio: 2.63503650
+
+
+umber Of Pool Data: 1000 // 1e3
+Min Elapsed time in Sec: 0.00002700  AVE Elapsed time in Sec: 0.00003728  Max Elapsed time in Sec: 0.00007900
+Min Elapsed time in Sec: 0.00000400  AVE Elapsed time in Sec: 0.00001369  Max Elapsed time in Sec: 0.00004000
+No Pool to Pool Time Ratio: 2.72315559
+
+
+Number Of Pool Data: 10000 // 1e4
+Min Elapsed time in Sec: 0.00025800  AVE Elapsed time in Sec: 0.00029992  Max Elapsed time in Sec: 0.00050100
+Min Elapsed time in Sec: 0.00000100  AVE Elapsed time in Sec: 0.00000154  Max Elapsed time in Sec: 0.00000400
+No Pool to Pool Time Ratio: 194.75324675
+
+
+Number Of Pool Data: 100000  // 1e5
+Min Elapsed time in Sec: 0.00257900  AVE Elapsed time in Sec: 0.00267924  Max Elapsed time in Sec: 0.00356600
+Min Elapsed time in Sec: 0.00000100  AVE Elapsed time in Sec: 0.00000205  Max Elapsed time in Sec: 0.00000800
+No Pool to Pool Time Ratio: 1306.94634146
+
+
+Number Of Pool Data: 1000000 // 1e6
+Min Elapsed time in Sec: 0.02527600  AVE Elapsed time in Sec: 0.02604624  Max Elapsed time in Sec: 0.03039900
+Min Elapsed time in Sec: 0.00000100  AVE Elapsed time in Sec: 0.00000182  Max Elapsed time in Sec: 0.00000800
+No Pool to Pool Time Ratio: 14311.12087912
