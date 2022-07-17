@@ -1,12 +1,9 @@
 # Binary Search Tree With Desired Pool
 
 ## Description
-
-In computer science, a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R), where L and R are binary trees or the empty set and S is a singleton set containing the root. Some authors allow the binary tree to be the empty set as well.
-
-The main **IDEA** to use this type of tree is the fact that in real industrial cases, sequential creation of tree elements is not efficient (since its a  system call). 
-In other words, when a program is executed, it is always the job-schedualer task to establish a balance between IO-intensive and CPU-intensive processes. Meanwhile, there are critical system calls that require context switching so that time-sharing protocols would remain effective. In this project, we have examined how impactful **malloc** interupt signal really is on an insert-intensive system.
-As depicted in [Figure-01](https://github.com/DataStructureAndAlgorithmBestPractice/B/blob/master/Results/plots/plot.png?raw=true), it could be observed that utilizing the pool mechanism which is ***Clustered Allocation*** produce faster responses.
+The main **IDEA** to start the current project is the fact that in real industrial cases, sequential data allocation is significantly inefficient, since it requires a system call. 
+In other words, when a program is executed, it is always the job-schedualer task to establish a balance between IO-intensive and CPU-intensive processes; any additional context switching would reduce the CPU performance. In this project, we have examined how impactful **malloc** interupt signal really is on an insert-intensive system.
+As depicted in [Figure-01](https://github.com/DataStructureAndAlgorithmBestPractice/DataStructureFactory/BinarySearchTree/BenchMark/Results/plots/plot.png?raw=true), it could be observed that utilizing the pool mechanism which is ***Clustered Allocation*** produce faster responses.
 More variations such as AVL, Red-Black, B-tree, and Splay is also on the way.
 
 ## Build & Installation
